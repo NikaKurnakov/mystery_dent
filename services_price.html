@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <div class="head_text">
+        <img class="dent1" src="286559.png" width="40vw" height="40vh">
+        <a class="main_cl" href="main.html"><h1>Стоматологическая клиника "Mystery Dent"</h1></a>
+        <img class="dent2" src="286559.png" width="40vw" height="40vh">
+    </div>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        .dent1{
+        margin-right: 1vw;
+        }
+        .dent2{
+        margin-left: 1vw;
+        }
+        .head_text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Montserrat Alternates", sans-serif;
+        width: 100%;
+        height: 5vw;
+        background-color: #D8E4FF;
+        font-weight: 100;
+        }
+        h1{
+        text-align: center;
+        }
+        body{
+        background-color: #F0F7FF;
+        margin: 0;
+        font-family: "Montserrat Alternates", sans-serif;
+        }
+        .main{
+        width: 100%;
+        height: 90vh;
+        }
+        .menu{
+        background-color: white;
+        width: 70%;
+        height: 4vw;
+        margin: auto;
+        margin-top: 5vh;
+        margin-bottom: 2vh;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        }
+        .dent{
+        background-color: white;
+        width: 43%;
+        height: 30%;
+        margin: auto;
+        border-radius: 15px;
+        padding-left: 1vw;
+        margin-bottom: 1vh;
+        transition: transform 0.4s;
+        }
+        .dent:hover{
+        transform: scale(1.02)
+        }
+        .dent_two{
+        background-color: white;
+        width: 43%;
+        height: 33%;
+        margin: auto;
+        border-radius: 15px;
+        padding-left: 1vw;
+        margin-bottom: 1vh;
+        transition: transform 0.4s;
+        }
+        .dent_two:hover{
+        transform: scale(1.02)
+        }
+        .services{
+        background-color: #F0F7FF;
+        height: 80vh;
+        width: 75%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        }
+        .menu_info{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        }
+        .main_cl{
+        text-decoration: none;
+        color: black;
+        }
+        button{
+        font-family: "Montserrat Alternates", sans-serif;
+        background-color: #B2C3FF;
+        border: 1.5px solid #93B0FF;
+        height: 60%;
+        border-radius: 10px;
+        font-size: 20px;
+        }
+        .sing_up{
+        font-size: 20px;
+        background-color: #B2C3FF;
+        text-decoration: none;
+        text-align: center;
+        color: black;
+        border-radius: 10px;
+        border: 1px solid #93B0FF;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        width: 8.5vw;
+        box-shadow:0 0 20px #93B0FF;
+        transition: background-color 0.4s;
+        }
+        .sing_up:hover{
+        background-color: #93B0FF;
+        }
+        .info{
+        wigth: 10vw;
+        margin-left: 2vw;
+        font-size: 15px;
+        }
+        .main_footer{
+        margin-top: 2vh;
+        border-top: 1px solid black;
+        display: flex;
+        justify-content: space-around;
+        }
+        .cont{
+        margin-top: 2vh;
+        }
+        .tel{
+        margin-left: 1vw;
+        }
+        @media (orientation: portrait){
+            .menu{
+            width: 90%;
+            height: 4vh;
+            }
+            .services{
+            height: 100%;
+            }
+            .main{
+            height: 100%;
+            }
+            .menu_info{
+            font-size: 25px;
+            }
+            .sing_up{
+            width: 17.5vw;
+            font-size: 25px;
+            }
+            .head_text{
+            height: 8vh;
+            font-size: 17px;
+            }
+            .about_us{
+            font-size: 30px;
+            padding-left: 1vw;
+            }
+            .dent{
+            width: 95%;
+            }
+            .dent_two{
+            width: 95%;
+            }
+            .info{
+            font-size: 23px;
+            }
+            .cont{
+            font-size: 23px;
+            }
+        }
+        @media (max-width: 1400px) and (orientation: landscape){
+            .menu{
+            width: 85%;
+            height: 11vh;
+            }
+            .menu_info{
+            font-size: 19px;
+            }
+            .sing_up{
+            width: 17vw;
+            font-size: 19px;
+            }
+            .head_text{
+            height: 12vh;
+            font-size: 17px;
+            }
+            .about_us{
+            font-size: 20px;
+            }
+            .dent{
+            width: 85%;
+            height: 35vh;
+            }
+            .dent_two{
+            width: 85%;
+            }
+            .services{
+            height: 100%;
+            width: 100%;
+            }
+            .info{
+            font-size: 20px;
+            }
+            .main{
+            height: 100%;
+            }
+            .cont{
+            font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="menu">
+            <a class="menu_info" href="about_us.html">О нас</a>
+            <a class="menu_info" href="services_price.html">Услуги и цены</a>
+            <a class="menu_info" href="contacts.html">Контакты</a>
+            <a class="sing_up" href="sing_up.html">Записаться</a>
+        </div>
+        <div class="services">
+            <div class="dent">
+                <h2 class="about_us">Профилактика и гигиена</h2>
+                <p class="about_us">Профессиональная чистка зубов: от 1500 до 3000 рублей</p>
+                <p class="about_us">Консультация стоматолога: от 500 до 1000 рублей</p>
+                <p class="about_us">Фторирование зубов: от 1000 до 2000 рублей</p>
+            </div>
+
+            <div class="dent">
+                <h2 class="about_us">Терапевтическая стоматология</h2>
+                <p class="about_us">Лечение кариеса (1 зуб): от 2000 до 4000 рублей</p>
+                <p class="about_us">Лечение пульпита: от 4000 до 8000 рублей</p>
+                <p class="about_us">Пломбирование зуба (композит): от 2500 до 5000 рублей</p>
+            </div>
+
+            <div class="dent_two">
+                <h2 class="about_us">Ортопедия</h2>
+                <p class="about_us">Установка коронки (металлокерамика): от 8000 до 15000 рублей</p>
+                <p class="about_us">Установка мостов: от 15000 до 30000 рублей</p>
+                <p class="about_us">Протезирование (съемные протезы): от 10000 до 25000 рублей</p>
+            </div>
+
+            <div class="dent_two">
+                <h2 class="about_us">Ортодонтия</h2>
+                <p class="about_us">Установка брекетов (металлические): от 30000 до 60000 рублей</p>
+                <p class="about_us">Установка брекетов (керамические): от 40000 до 80000 рублей</p>
+                <p class="about_us">Курс лечения (ортодонтический): от 25000 до 50000 рублей</p>
+            </div>
+
+            <div class="dent_two">
+                <h2 class="about_us">Эстетическая стоматология</h2>
+                <p class="about_us">Отбеливание зубов (в кабинете): от 5000 до 15000 рублей</p>
+                <p class="about_us">Установка виниров: от 10000 до 20000 рублей за зуб</p>
+                <p class="about_us">Композитные реставрации: от 3000 до 7000 рублей за зуб</p>
+            </div>
+
+            <div class="dent_two">
+                <h2 class="about_us">Хирургическая стоматология</h2>
+                <p class="about_us">Удаление зуба (простое): от 1500 до 3000 рублей</p>
+                <p class="about_us">Удаление зуба (сложное): от 4000 до 8000 рублей</p>
+                <p class="about_us">Имплантация зуба: от 30000 до 60000 рублей (включая сам имплант и коронку)</p>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="main_footer">
+        <div class="footer">
+            <p class="info">Сайт носит исключительно информационный</p>
+            <p class="info">характер в учебных целях.</p>
+        </div>
+
+        <div  class="cont">
+            <img src="adres.png" width="40vw" height="40vh">г.Москва, ул. Загадочная, д. 42, офис 7
+            <img class="tel" src="phone.png" width="40vw" height="40vh">+7(495)123-45-67
+        </div>
+    </div>
+</footer>
+</html>

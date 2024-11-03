@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <div class="head_text">
+        <img class="dent1" src="286559.png" width="40vw" height="40vh">
+        <a class="main_cl" href="main.html"><h1>Стоматологическая клиника "Mystery Dent"</h1></a>
+        <img class="dent2" src="286559.png" width="40vw" height="40vh">
+    </div>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        .dent1{
+        margin-right: 1vw;
+        }
+        .dent2{
+        margin-left: 1vw;
+        }
+        .head_text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Montserrat Alternates", sans-serif;
+        width: 100%;
+        height: 5vw;
+        background-color: #D8E4FF;
+        font-weight: 100;
+        }
+        h1{
+        text-align: center;
+        }
+        body{
+        background-color: #F0F7FF;
+        margin: 0;
+        font-family: "Montserrat Alternates", sans-serif;
+        }
+        .main{
+        width: 100%;
+        height: 80vh;
+        }
+        .menu{
+        background-color: white;
+        width: 70%;
+        height: 4vw;
+        margin: auto;
+        margin-top: 5vh;
+        margin-bottom: 2vh;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        }
+        .adreses{
+        background-color: white;
+        width: 50%;
+        height: 70%;
+        margin: auto;
+        margin-top: 8vh;
+        border-radius: 15px;
+        padding-left: 1vw;
+        box-shadow:0 0 20px #93B0FF;
+        }
+        .about_us{
+        padding-top: 2vh;
+        }
+        li{
+        margin-bottom: 4vh;
+        }
+        .menu_info{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        }
+        .main_cl{
+        text-decoration: none;
+        color: black;
+        }
+        button{
+        font-family: "Montserrat Alternates", sans-serif;
+        background-color: #B2C3FF;
+        border: 1.5px solid #93B0FF;
+        height: 60%;
+        border-radius: 10px;
+        font-size: 20px;
+        }
+        .sing_up{
+        font-size: 20px;
+        background-color: #B2C3FF;
+        text-decoration: none;
+        text-align: center;
+        color: black;
+        border-radius: 10px;
+        border: 1px solid #93B0FF;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        width: 8.5vw;
+        box-shadow:0 0 20px #93B0FF;
+        transition: background-color 0.4s;
+        }
+        .sing_up:hover{
+        background-color: #93B0FF;
+        }
+        .info{
+        wigth: 10vw;
+        margin-left: 2vw;
+        font-size: 15px;
+        }
+        .main_footer{
+        margin-top: 2vh;
+        border-top: 1px solid black;
+        display: flex;
+        justify-content: space-around;
+        }
+        .cont{
+        margin-top: 2vh;
+        }
+        .tel{
+        margin-left: 1vw;
+        }
+        @media (orientation: portrait){
+            .menu{
+            width: 90%;
+            height: 4vh;
+            }
+            .main{
+            height: 100%;
+            }
+            .menu_info{
+            font-size: 25px;
+            }
+            .sing_up{
+            width: 17.5vw;
+            font-size: 25px;
+            }
+            .head_text{
+            height: 8vh;
+            font-size: 17px;
+            }
+            .about_us{
+            font-size: 30px;
+            padding-left: 1vw;
+            }
+            .adreses{
+            width: 90%;
+            height: 60vh;
+            margin-top: 5vh;
+            }
+            li{
+            font-size: 30px;
+            }
+            .info{
+            font-size: 23px;
+            }
+            .soc{
+            width: 9vw;
+            height: 5vh;
+            }
+            .soc1{
+            width: 16vw;
+            height: 5vh;
+            }
+            .cont{
+            font-size: 23px;
+            }
+        }
+        @media (max-width: 1400px) and (orientation: landscape){
+            .menu{
+            width: 85%;
+            height: 11vh;
+            }
+            .menu_info{
+            font-size: 19px;
+            }
+            .sing_up{
+            width: 17vw;
+            font-size: 19px;
+            }
+            .head_text{
+            height: 12vh;
+            font-size: 17px;
+            }
+            .about_us{
+            font-size: 20px;
+            }
+            .adreses{
+            width: 85%;
+            height: 78vh;
+            margin-top: 5vh;
+            }
+            li{
+            font-size: 20px;
+            }
+            .info{
+            font-size: 20px;
+            }
+            .main{
+            height: 100%;
+            }
+            .soc{
+            width: 6vw;
+            height: 8vh;
+            }
+            .soc1{
+            width: 12vw;
+            height: 8vh;
+            }
+            .cont{
+            font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="menu">
+            <a class="menu_info" href="about_us.html">О нас</a>
+            <a class="menu_info" href="services_price.html">Услуги и цены</a>
+            <a class="menu_info" href="contacts.html">Контакты</a>
+            <a class="sing_up" href="sing_up.html">Записаться</a>
+        </div>
+        <div class="adreses">
+            <h2 class="about_us">Наша клиника расположена на нескольких адресах</h2>
+            <ul>
+                <li>г.Москва, ул. Загадочная, д. 42, офис 7, тел: +7 (495) 123-45-67</li>
+                <li>г.Москва, пр. Секретный, д. 19, этаж 3, тел: +7 (499) 987-65-43</li>
+                <li>г.Москва, ул. Неизвестная, д. 88, кабинет 5, тел: +7 (495) 234-56-78</li>
+                <li>г.Москва, бульвар Удивительный, д. 11, вход со двора, тел: +7 (499) 876-54-32</li>
+                <li>г.Москва, ул. Мистическая, д. 27, офис 2, тел: +7 (495) 345-67-89</li>
+            </ul>
+            <h3 class="about_us">Присоединяйтесь к нашим социальным сетям и следите за новостями!</h3>
+            <a href="contacts.html"><img class="soc1" src="telega.png" width="77vw" height="43vh"></a>
+            <a href="contacts.html"><img class="soc" src="vk.png" width="40vw" height="40vh"></a>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="main_footer">
+        <div class="footer">
+            <p class="info">Сайт носит исключительно информационный</p>
+            <p class="info">характер в учебных целях.</p>
+        </div>
+
+        <div  class="cont">
+            <img src="adres.png" width="40vw" height="40vh">г.Москва, ул. Загадочная, д. 42, офис 7
+            <img class="tel" src="phone.png" width="40vw" height="40vh">+7(495)123-45-67
+        </div>
+    </div>
+</footer>
+</html>
